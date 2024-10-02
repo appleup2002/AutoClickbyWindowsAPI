@@ -12,9 +12,9 @@ std::random_device rd;
 std::mt19937 gen(rd());
 std::uniform_int_distribution<> dis_1(0, 20);
 std::uniform_int_distribution<> dis_2(-5, 5);
-std::uniform_int_distribution<> dis_3(300, 700);
-std::uniform_int_distribution<> dis_4(100, 500);
-std::uniform_int_distribution<> dis_5(20, 150);
+std::uniform_int_distribution<> dis_3(3000, 7000);
+std::uniform_int_distribution<> dis_4(1000, 5000);
+std::uniform_int_distribution<> dis_5(200, 1500);
 std::uniform_int_distribution<> dis_6(0, 120);
 
 int tip = 0;
